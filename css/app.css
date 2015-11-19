@@ -1,13 +1,16 @@
 body {
   text-align: center;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 input {
-  font-style: italic;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-size: 30px;
 }
 
 button {
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  margin: 25px;
+  padding: 5px;
 }
