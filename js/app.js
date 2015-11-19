@@ -1,6 +1,9 @@
-function calc() {
-  var bill = document.getElementsByTagName('input');
-  var tip = bill * .20
-};
+var button = document.getElementsByTagName('button')[0];
+button.addEventListener('click', tipAmt, false);
 
-button.addEventListener('click', calc);
+function tipAmt() {
+  var bill = document.getElementById('bill');
+  var billAmt = Number(bill.value);
+  var tip = (billAmt * .20).toFixed(2);
+  document.getElementById('tipMsg').innerHTML = 'You should tip \$' + tip;
+};
